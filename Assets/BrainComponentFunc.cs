@@ -1,33 +1,34 @@
 using TMPro;
 using UnityEngine;
 
-public class BrainComponentInfo : MonoBehaviour
+public class BrainComponentFunc : MonoBehaviour
 {
-    public GameObject infoPanelPrefab; // Prefab for the info panel
+    public GameObject functionPanelPrefab; // Prefab for the info panel
 
-    [Header("Component Info")]
-    public string componentName;
+    [Header("Functions")]
     [TextArea]
-    public string description;
+    public string functions;
+    [TextArea]
+    public string otherComps;
 
-    private TMP_Text infoText;
+    private TMP_Text funcText;
 
     void Start()
     {
         // Find the TextMeshPro component inside the panel
-        infoText = infoPanelPrefab.GetComponentInChildren<TMP_Text>();
+        funcText = functionPanelPrefab.GetComponentInChildren<TMP_Text>();
 
         // Ensure the panel is initially hidden
-        infoPanelPrefab.SetActive(false);
+        functionPanelPrefab.SetActive(false);
     }
 
     private void OnMouseDown()
     {
         // Ensure the panel is active
-        infoPanelPrefab.SetActive(true);
+        functionPanelPrefab.SetActive(true);
 
         // Update the text content
-        infoText.text = $"{componentName}\n{description}";
+        funcText.text = $"{functions}\n{otherComps}";
     }
 
     //void Update()

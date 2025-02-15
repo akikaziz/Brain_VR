@@ -47,20 +47,20 @@ public class ExplodeAndReturn : MonoBehaviour
         }
     }
 
-    private void ReturnParts()
-    {
-        for (int i = 0; i < transform.childCount; i++)
-        {
-            Transform part = transform.GetChild(i);
-            part.localPosition = Vector3.Lerp(part.localPosition, originalPositions[i], Time.deltaTime * 2);
-        }
+    //private void ReturnParts()
+    //{
+    //    for (int i = 0; i < transform.childCount; i++)
+    //    {
+    //        Transform part = transform.GetChild(i);
+    //        part.localPosition = Vector3.Lerp(part.localPosition, originalPositions[i], Time.deltaTime * 2);
+    //    }
 
-        exploded = false;
-    }
+    //    exploded = false;
+    //}
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.P))
+        if (Input.GetButtonDown("Fire1"))
         {
             Explode();
         }
