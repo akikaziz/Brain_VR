@@ -16,13 +16,13 @@ public class BrainComponentFunc : MonoBehaviour
     void Start()
     {
         // Find the TextMeshPro component inside the panel
-        funcText = functionPanelPrefab.GetComponentInChildren<TMP_Text>();
+        funcText = functionPanelPrefab.GetComponentInChildren<TMP_Text>(true);
 
         // Ensure the panel is initially hidden
         functionPanelPrefab.SetActive(false);
     }
 
-    private void OnMouseDown()
+    public void ShowInfo()
     {
         // Ensure the panel is active
         functionPanelPrefab.SetActive(true);

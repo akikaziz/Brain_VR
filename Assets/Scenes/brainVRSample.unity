@@ -138,6 +138,7 @@ MonoBehaviour:
   componentName: Anterior Horn of Lateral Ventricle
   description: "Brain (Br)\n\tForebrain (F)\n\t\tVentricles of Forebrain (FV)\n\t\t\tLateral
     Ventricles (LV)\n\t\t\t\tAnterior Horn of Lateral Ventricle (aLV)"
+  panel_found: 0
 --- !u!114 &12557901
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -154,6 +155,7 @@ MonoBehaviour:
   componentName: Red Nucleus
   description: "Brain (Br)\n\tMidbrain (M)\n\t\tGray Matter of Midbrain (MGM)\n\t\t\tMidbrain
     Tegmentum (MTg)\n\t\t\t\tRed Nucleus (RN)"
+  panel_found: 0
 --- !u!114 &19352527
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -426,6 +428,7 @@ MonoBehaviour:
     (Die)\n\t\t\t\tThalamus (THM)\n\t\t\t\t\tDorsal Thalamus (DTH)\n\t\t\t\t\t\tLateral
     Nuclear Complex of Thalamus (LNC)\n\t\t\t\t\t\t\tDorsal Group of Lateral Nucleus
     (DLN)\n\t\t\t\t\t\t\t\t\t Lateral Posterior Nucleus of Thalamus (LP)"
+  panel_found: 0
 --- !u!114 &66522861
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -442,6 +445,7 @@ MonoBehaviour:
   componentName: Middle Cerebellar Peduncle
   description: "Brain (Br)\n\tHindbrain (H)\n\t\tWhite Matter of Hindbrain (HWM)\n\t\t\tMiddle
     Cerebellar Peduncle (mcp)"
+  panel_found: 0
 --- !u!114 &66599240
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -459,6 +463,7 @@ MonoBehaviour:
   description: "Brain (Br)\n\tForebrain (F)\n\t\tSurface Structures of Forebrain
     (FSS)\n\t\t\tCerebral Gyri and Lobules (CeG)\n\t\t\t\tOccipital Lobe (OccL)\n\t\t\t\t\tLingual
     Gyrus (LiG)"
+  panel_found: 0
 --- !u!54 &74489055
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -579,6 +584,7 @@ MonoBehaviour:
   description: "Brain (Br)\n\tForebrain (F)\n\t\tGray Matter of Forebrain (FGM)\n\t\t\tTelencephalon
     (Tel)\n\t\t\t\tCerebral Nuclei (CN)\n\t\t\t\t\tBasal Forebrain (BF)\n\t\t\t\t\t\tSeptal
     Nuclei (SEP)"
+  panel_found: 0
 --- !u!54 &137593830
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -774,6 +780,7 @@ MonoBehaviour:
   componentName: Basal Forebrain
   description: "Brain (Br)\n\tForebrain (F)\n\t\tGray Matter of Forebrain (FGM)\n\t\t\tTelencephalon
     (Tel)\n\t\t\t\tCerebral Nuclei (CN)\n\t\t\t\t\tBasal Forebrain (BF)"
+  panel_found: 0
 --- !u!54 &153163282
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1002,6 +1009,7 @@ MonoBehaviour:
   description: "Brain (Br)\n\tForebrain (F)\n\t\tGray Matter of Forebrain (FGM)\n\t\t\tTelencephalon
     (Tel)\n\t\t\t\tCerebral Nuclei (CN)\n\t\t\t\t\tAmygdaloid Complex (AMY)\n\t\t\t\t\t\tCorticomedial
     Nuclear Group (CMN)\n\t\t\t\t\t\t\tMedial Nucleus (Me)"
+  panel_found: 0
 --- !u!64 &194173551
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2354,6 +2362,7 @@ MonoBehaviour:
   infoPanelPrefab: {fileID: 539067736}
   componentName: White Matter of Hindbrain
   description: "Brain (Br)\n\tHindbrain (H)\n\t\tWhite Matter of Hindbrain (HWM)"
+  panel_found: 0
 --- !u!114 &435347833
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2372,6 +2381,7 @@ MonoBehaviour:
     (FSS)\n\t\t\tCerebral Gyri and Lobules (CeG)\n\t\t\t\tLimbic Lobe (LimL)\n\t\t\t\t\tParahippocampal
     Gyrus (PHG)\n\t\t\t\t\t\tUncus of Parahippocampal Gyrus (UN)\n\t\t\t\t\t\t\tAmbiens
     Gyrus (AG)"
+  panel_found: 0
 --- !u!64 &435952103
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3192,6 +3202,7 @@ MonoBehaviour:
   description: "Brain (Br)\n\tForebrain (F)\n\t\tGray Matter of Forebrain (FGM)\n\t\t\tDiencephalon
     (Die)\n\t\t\t\tThalamus (THM)\n\t\t\t\t\tVentral Thalamus (VTH)\n\t\t\t\t\t\tZona
     Incerta (ZI)"
+  panel_found: 0
 --- !u!64 &559193073
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3372,8 +3383,8 @@ Transform:
   m_GameObject: {fileID: 569157430}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: -1, z: 0, w: 0}
-  m_LocalPosition: {x: 2.17, y: 2.13, z: -11.83}
-  m_LocalScale: {x: 4, y: 4, z: 4}
+  m_LocalPosition: {x: 2.2, y: 2.61, z: -11.83}
+  m_LocalScale: {x: 5, y: 5, z: 5}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 539067735}
@@ -3495,6 +3506,7 @@ MonoBehaviour:
   description: "Brain (Br)\n\tForebrain (F)\n\t\tSurface Structures of Forebrain
     (FSS)\n\t\t\tCerebral Gyri and Lobules (CeG)\n\t\t\t\tLimbic Lobe (LimL)\n\t\t\t\t\tHippocampal
     Gyrus (formation) (HiF)\n\t\t\t\t\t\tBody of Hippocampus (HiB)"
+  panel_found: 0
 --- !u!54 &588089039
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4439,6 +4451,7 @@ MonoBehaviour:
     (Die)\n\t\t\t\tThalamus (THM)\n\t\t\t\t\tDorsal Thalamus (DTH)\n\t\t\t\t\t\tMedial
     Nuclear Complex of Thalamus (MNC)\n\t\t\t\t\t\t\tMediodorsal Nucleus of Thalamus
     (MD)"
+  panel_found: 0
 --- !u!54 &823799874
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4537,6 +4550,7 @@ MonoBehaviour:
   description: "Brain (Br)\n\tForebrain (F)\n\t\tSurface Structures of Forebrain
     (FSS)\n\t\t\tCerebral Gyri and Lobules (CeG)\n\t\t\t\tFrontal Lobe (FroL)\n\t\t\t\t\t
     Posterior Intermediate Orbital Gyrus (POrG)"
+  panel_found: 0
 --- !u!54 &836664513
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4580,6 +4594,7 @@ MonoBehaviour:
   componentName: Preoptic Region of HTH
   description: "Brain (Br)\n\tForebrain (F)\n\t\tGray Matter of Forebrain (FGM)\n\t\t\tDiencephalon
     (Die)\n\t\t\t\tHypothalamus (HTH)\n\t\t\t\t\tPreoptic Region of HTH (HTHpo)"
+  panel_found: 0
 --- !u!54 &854311098
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4800,6 +4815,7 @@ MonoBehaviour:
     (Tel)\n\t\t\t\tCerebral Nuclei (CN)\n\t\t\t\t\tBasal Nuclei (BN)\n\t\t\t\t\t\tStriatum
     (STR)\n\t\t\t\t\t\t\tCaudate Nucleus (Ca)\n\t\t\t\t\t\t\t\t\tBody of Caudate
     (CaB)"
+  panel_found: 0
 --- !u!54 &864602012
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -5905,6 +5921,7 @@ MonoBehaviour:
   description: "Brain (Br)\n\tForebrain (F)\n\t\tGray Matter of Forebrain (FGM)\n\t\t\tTelencephalon
     (Tel)\n\t\t\t\tCerebral Nuclei (CN)\n\t\t\t\t\tAmygdaloid Complex (AMY)\n\t\t\t\t\t\tAnterior
     Amygdaloid Area (AAA)"
+  panel_found: 0
 --- !u!54 &953537424
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -6101,6 +6118,7 @@ MonoBehaviour:
   description: "Brain (Br)\n\tForebrain (F)\n\t\tSurface Structures of Forebrain
     (FSS)\n\t\t\tCerebral Gyri and Lobules (CeG)\n\t\t\t\tParietal Lobe (ParL)\n\t\t\t\t\tParietal
     Operculum (PaO)"
+  panel_found: 0
 --- !u!54 &995479603
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -6145,6 +6163,7 @@ MonoBehaviour:
   description: "Brain (Br)\n\tForebrain (F)\n\t\tGray Matter of Forebrain (FGM)\n\t\t\tDiencephalon
     (Die)\n\t\t\t\tThalamus (THM)\n\t\t\t\t\tDorsal Thalamus (DTH)\n\t\t\t\t\t\tAnterior
     Nuclear Complex of Thalamus (ANC)"
+  panel_found: 0
 --- !u!114 &1005624324
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6161,6 +6180,7 @@ MonoBehaviour:
   componentName: Amygdaloid Complex
   description: "Brain (Br)\n\tForebrain (F)\n\t\tGray Matter of Forebrain (FGM)\n\t\t\tTelencephalon
     (Tel)\n\t\t\t\tCerebral Nuclei (CN)\n\t\t\t\t\tAmygdaloid Complex (AMY)"
+  panel_found: 0
 --- !u!54 &1011798005
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -6334,6 +6354,7 @@ MonoBehaviour:
   componentName: Thalamus
   description: "Brain (Br)\n\tForebrain (F)\n\t\tGray Matter of Forebrain (FGM)\n\t\t\tDiencephalon
     (Die)\n\t\t\t\tThalamus (THM)"
+  panel_found: 0
 --- !u!114 &1033830492
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6352,6 +6373,7 @@ MonoBehaviour:
     (Die)\n\t\t\t\tThalamus (THM)\n\t\t\t\t\tDorsal Thalamus (DTH)\n\t\t\t\t\t\tMedial
     Nuclear Complex of Thalamus (MNC)\n\t\t\t\t\t\t\tReuniens Nucleus (Medioventral
     Nucleus) of Thalamus (Re)"
+  panel_found: 0
 --- !u!114 &1043350699
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6369,6 +6391,7 @@ MonoBehaviour:
   description: "Brain (Br)\n\tForebrain (F)\n\t\tGray Matter of Forebrain (FGM)\n\t\t\tTelencephalon
     (Tel)\n\t\t\t\tCerebral Nuclei (CN)\n\t\t\t\t\tAmygdaloid Complex (AMY)\n\t\t\t\t\t\tBasolateral
     Nuclear Group (BLN)\n\t\t\t\t\t\t\tBasomedial Nucleus (BM)"
+  panel_found: 0
 --- !u!54 &1051614558
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -6848,6 +6871,7 @@ MonoBehaviour:
   description: "Brain (Br)\n\tForebrain (F)\n\t\tGray Matter of Forebrain (FGM)\n\t\t\tTelencephalon
     (Tel)\n\t\t\t\tCerebral Nuclei (CN)\n\t\t\t\t\tAmygdaloid Complex (AMY)\n\t\t\t\t\t\tBasolateral
     Nuclear Group (BLN)\n\t\t\t\t\t\t\tBasolateral Nucleus (BL)"
+  panel_found: 0
 --- !u!54 &1136315605
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -7136,6 +7160,7 @@ MonoBehaviour:
   description: "Brain (Br)\n\tForebrain (F)\n\t\tSurface Structures of Forebrain
     (FSS)\n\t\t\tCerebral Gyri and Lobules (CeG)\n\t\t\t\tFrontal Lobe (FroL)\n\t\t\t\t\t
     Medial Orbital Gyrus (MOrG)"
+  panel_found: 0
 --- !u!1 &1202312658
 GameObject:
   m_ObjectHideFlags: 0
@@ -7228,6 +7253,7 @@ MonoBehaviour:
   componentName: Claustrum
   description: "Brain (Br)\n\tForebrain (F)\n\t\tGray Matter of Forebrain (FGM)\n\t\t\tTelencephalon
     (Tel)\n\t\t\t\tCerebral Nuclei (CN)\n\t\t\t\t\tClaustrum (Cla)"
+  panel_found: 0
 --- !u!1 &1209329927
 GameObject:
   m_ObjectHideFlags: 0
@@ -7368,6 +7394,7 @@ MonoBehaviour:
     (Die)\n\t\t\t\tThalamus (THM)\n\t\t\t\t\tDorsal Thalamus (DTH)\n\t\t\t\t\t\tIntralaminar
     Nuclear Complex (ILN)\n\t\t\t\t\t\t\tPosterior Group of Intralaminar Nuclei (PILN)\n\t\t\t\t\t\t\t\t\tCentromedian
     Nucleus of Thalamus (CM)"
+  panel_found: 0
 --- !u!54 &1213467383
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -7561,6 +7588,7 @@ MonoBehaviour:
   description: "Brain (Br)\n\tForebrain (F)\n\t\tGray Matter of Forebrain (FGM)\n\t\t\tDiencephalon
     (Die)\n\t\t\t\tThalamus (THM)\n\t\t\t\t\tDorsal Thalamus (DTH)\n\t\t\t\t\t\tMidline
     Nuclear Complex (MiN)"
+  panel_found: 0
 --- !u!1 &1254200154
 GameObject:
   m_ObjectHideFlags: 0
@@ -7646,6 +7674,7 @@ MonoBehaviour:
   description: "Brain (Br)\n\tForebrain (F)\n\t\tSurface Structures of Forebrain
     (FSS)\n\t\t\tCerebral Gyri and Lobules (CeG)\n\t\t\t\tFrontal Lobe (FroL)\n\t\t\t\t\t
     Paracingulate Gyrus (PaCG)"
+  panel_found: 0
 --- !u!64 &1261385997
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -12665,6 +12694,7 @@ MonoBehaviour:
   description: "Brain (Br)\n\tForebrain (F)\n\t\tGray Matter of Forebrain (FGM)\n\t\t\tTelencephalon
     (Tel)\n\t\t\t\tCerebral Cortex (Cx)\n\t\t\t\t\tPeriallocortex (PACx)\n\t\t\t\t\t\tPeripaleocortex
     (PPCx)\n\t\t\t\t\t\t\tTemporal Agranular Insular Cortex (TI)"
+  panel_found: 0
 --- !u!114 &1363659196
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12682,6 +12712,7 @@ MonoBehaviour:
   description: "Brain (Br)\n\tForebrain (F)\n\t\tGray Matter of Forebrain (FGM)\n\t\t\tTelencephalon
     (Tel)\n\t\t\t\tCerebral Cortex (Cx)\n\t\t\t\t\tPeriallocortex (PACx)\n\t\t\t\t\t\tPeripaleocortex
     (PPCx)\n\t\t\t\t\t\t\tFrontal Agranular Insular Cortex (FI)"
+  panel_found: 0
 --- !u!114 &1363659197
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12699,6 +12730,7 @@ MonoBehaviour:
   description: "Brain (Br)\n\tForebrain (F)\n\t\tGray Matter of Forebrain (FGM)\n\t\t\tTelencephalon
     (Tel)\n\t\t\t\tCerebral Cortex (Cx)\n\t\t\t\t\tAllocortex (ACx)\n\t\t\t\t\t\tPaleocortex
     (PalCx)\n\t\t\t\t\t\t\tPiriform Cortex (Pir)"
+  panel_found: 0
 --- !u!114 &1363659198
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12716,6 +12748,7 @@ MonoBehaviour:
   description: "Brain (Br)\n\tForebrain (F)\n\t\tGray Matter of Forebrain (FGM)\n\t\t\tTelencephalon
     (Tel)\n\t\t\t\tCerebral Cortex (Cx)\n\t\t\t\t\tAllocortex (ACx)\n\t\t\t\t\t\tPaleocortex
     (PalCx)\n\t\t\t\t\t\t\tAnterior Olfactory Nucleus (AON)"
+  panel_found: 0
 --- !u!64 &1363659199
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -13413,6 +13446,7 @@ MonoBehaviour:
   description: "Brain (Br)\n\tForebrain (F)\n\t\tSurface Structures of Forebrain
     (FSS)\n\t\t\tCerebral Gyri and Lobules (CeG)\n\t\t\t\tFrontal Lobe (FroL)\n\t\t\t\t\t
     Frontomarginal Gyrus (FMG)"
+  panel_found: 0
 --- !u!114 &1373370195
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13619,6 +13653,7 @@ MonoBehaviour:
   componentName: Supraoptic Region of HTH
   description: "Brain (Br)\n\tForebrain (F)\n\t\tGray Matter of Forebrain (FGM)\n\t\t\tDiencephalon
     (Die)\n\t\t\t\tHypothalamus (HTH)\n\t\t\t\t\tSupraoptic Region of HTH (HTHso)"
+  panel_found: 0
 --- !u!64 &1380402922
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -13870,6 +13905,7 @@ MonoBehaviour:
   description: "Brain (Br)\n\tForebrain (F)\n\t\tSurface Structures of Forebrain
     (FSS)\n\t\t\tCerebral Gyri and Lobules (CeG)\n\t\t\t\tFrontal Lobe (FroL)\n\t\t\t\t\t
     Superior Frontal Gyrus (SFG)"
+  panel_found: 0
 --- !u!114 &1381121892
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13961,7 +13997,31 @@ MonoBehaviour:
       m_Calls: []
   m_Activated:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1381121888}
+        m_TargetAssemblyTypeName: BrainComponentInfo, Assembly-CSharp
+        m_MethodName: ShowInfo
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1381121894}
+        m_TargetAssemblyTypeName: BrainComponentFunc, Assembly-CSharp
+        m_MethodName: ShowInfo
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_Deactivated:
     m_PersistentCalls:
       m_Calls: []
@@ -14058,8 +14118,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   functionPanelPrefab: {fileID: 1216081696}
-  functions: 
-  otherComps: 
+  functions: 'Function: Involved in self-awareness, decision-making, and motor planning.'
+  otherComps: 'Associated Components: Prefrontal Cortex, Medial Frontal Cortex, Motor
+    Areas'
 --- !u!114 &1390142508
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14078,6 +14139,7 @@ MonoBehaviour:
     (Die)\n\t\t\t\tThalamus (THM)\n\t\t\t\t\tDorsal Thalamus (DTH)\n\t\t\t\t\t\tLateral
     Nuclear Complex of Thalamus (LNC)\n\t\t\t\t\t\t\tVentral Group of Lateral Nucleus
     (VLN)\n\t\t\t\t\t\t\t\t\tVentral Anterior Nucleus of Thalamus (VA)"
+  panel_found: 0
 --- !u!64 &1390142512
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -14334,6 +14396,7 @@ MonoBehaviour:
   description: "Brain (Br)\n\tForebrain (F)\n\t\tGray Matter of Forebrain (FGM)\n\t\t\tTelencephalon
     (Tel)\n\t\t\t\tCerebral Nuclei (CN)\n\t\t\t\t\tAmygdaloid Complex (AMY)\n\t\t\t\t\t\tCentral
     Nuclear Group (CEN)"
+  panel_found: 0
 --- !u!64 &1407600506
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -14585,6 +14648,7 @@ MonoBehaviour:
   description: "Brain (Br)\n\tForebrain (F)\n\t\tSurface Structures of Forebrain
     (FSS)\n\t\t\tCerebral Gyri and Lobules (CeG)\n\t\t\t\tFrontal Lobe (FroL)\n\t\t\t\t\t
     Frontal Operculum (FrO)"
+  panel_found: 0
 --- !u!114 &1409313769
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14814,6 +14878,7 @@ MonoBehaviour:
   description: "Brain (Br)\n\tForebrain (F)\n\t\tSurface Structures of Forebrain
     (FSS)\n\t\t\tCerebral Gyri and Lobules (CeG)\n\t\t\t\tParietal Lobe (ParL)\n\t\t\t\t\tSupraparietal
     Lobule (SPL)"
+  panel_found: 0
 --- !u!114 &1410019231
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15070,6 +15135,7 @@ MonoBehaviour:
   description: "Brain (Br)\n\tForebrain (F)\n\t\tSurface Structures of Forebrain
     (FSS)\n\t\t\tCerebral Gyri and Lobules (CeG)\n\t\t\t\t Insular Lobe (InL)\n\t\t\t\t\tShort
     Insular Gyri (SIG)"
+  panel_found: 0
 --- !u!114 &1415216091
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15469,6 +15535,7 @@ MonoBehaviour:
     Nuclear Complex of Thalamus (LNC)\n\t\t\t\t\t\t\tVentral Group of Lateral Nucleus
     (VLN)\n\t\t\t\t\t\t\t\t\tVentral Posterior Nucleus of Thalamus (VPT)\n\t\t\t\t\t\t\t\t\t\tVentral
     Posterior Lateral Nucleus (VPL)"
+  panel_found: 0
 --- !u!64 &1418091440
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -15747,6 +15814,7 @@ MonoBehaviour:
   description: "Brain (Br)\n\tForebrain (F)\n\t\tSurface Structures of Forebrain
     (FSS)\n\t\t\tCerebral Gyri and Lobules (CeG)\n\t\t\t\tFrontal Lobe (FroL)\n\t\t\t\t\t
     Rostral Gyrus (RoG)"
+  panel_found: 0
 --- !u!114 &1418885195
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16003,6 +16071,7 @@ MonoBehaviour:
   description: "Brain (Br)\n\tForebrain (F)\n\t\tSurface Structures of Forebrain
     (FSS)\n\t\t\tCerebral Gyri and Lobules (CeG)\n\t\t\t\tFrontal Lobe (FroL)\n\t\t\t\t\t
     Lateral Olfactory Gyrus (LOG)"
+  panel_found: 0
 --- !u!114 &1420754090
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16209,6 +16278,7 @@ MonoBehaviour:
   componentName: Cerebral Peduncle (crus cerebri)
   description: "Brain (Br)\n\tMidbrain (M)\n\t\tWhite Matter of Midbrain (MWM)\n\t\t\tCerebral
     Peduncle (crus cerebri) (cpd)"
+  panel_found: 0
 --- !u!114 &1424602008
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16415,6 +16485,7 @@ MonoBehaviour:
   componentName: Basilar Part of Pons
   description: "Brain (Br)\n\tHindbrain (H)\n\t\tGray Matter of the Hindbrain (HGM)\n\t\t\tMetencephalon
     (Met)\n\t\t\t\tPons (Pn)\n\t\t\t\t\tBasilar Part of Pons (PnBa)"
+  panel_found: 0
 --- !u!114 &1424631580
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16670,6 +16741,7 @@ MonoBehaviour:
   componentName: Limen Insula
   description: "Brain (Br)\n\tForebrain (F)\n\t\tSurface Structures of Forebrain
     (FSS)\n\t\t\tLimen Insula (LI)"
+  panel_found: 0
 --- !u!114 &1439332078
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16925,6 +16997,7 @@ MonoBehaviour:
   componentName: Optic Radiation
   description: "Brain (Br)\n\tForebrain (F)\n\t\tWhite Matter of Forebrain (FWM)\n\t\t\tForebrain
     Ipsilateral Fiber Tracts (FIFT)\n\t\t\t\tOptic Radiation (or)"
+  panel_found: 0
 --- !u!114 &1447516214
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17181,6 +17254,7 @@ MonoBehaviour:
   description: "Brain (Br)\n\tForebrain (F)\n\t\tSurface Structures of Forebrain
     (FSS)\n\t\t\tCerebral Gyri and Lobules (CeG)\n\t\t\t\tFrontal Lobe (FroL)\n\t\t\t\t\t
     Paracentral Lobule, Rostral Part (PCLr)"
+  panel_found: 0
 --- !u!114 &1449267976
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17437,6 +17511,7 @@ MonoBehaviour:
   description: "Brain (Br)\n\tForebrain (F)\n\t\tSurface Structures of Forebrain
     (FSS)\n\t\t\tCerebral Gyri and Lobules (CeG)\n\t\t\t\tFrontal Lobe (FroL)\n\t\t\t\t\t
     Lateral Orbital Gyrus (LOrG)"
+  panel_found: 0
 --- !u!114 &1450506897
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17693,6 +17768,7 @@ MonoBehaviour:
   description: "Brain (Br)\n\tForebrain (F)\n\t\tSurface Structures of Forebrain
     (FSS)\n\t\t\tCerebral Gyri and Lobules (CeG)\n\t\t\t\tOccipital Lobe (OccL)\n\t\t\t\t\tSuperior
     Occipital Gyrus (SOG)"
+  panel_found: 0
 --- !u!114 &1456018463
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17921,6 +17997,7 @@ MonoBehaviour:
   componentName: Inferior Horn of Lateral Ventricle
   description: "Brain (Br)\n\tForebrain (F)\n\t\tVentricles of Forebrain (FV)\n\t\t\tLateral
     Ventricles (LV)\n\t\t\t\tInferior Horn of Lateral Ventricle (iLV)"
+  panel_found: 0
 --- !u!114 &1458820202
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18176,6 +18253,7 @@ MonoBehaviour:
   componentName: Third Ventricle
   description: "Brain (Br)\n\tForebrain (F)\n\t\tVentricles of Forebrain (FV)\n\t\t\tThird
     Ventricle (3V)"
+  panel_found: 0
 --- !u!114 &1471186256
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18409,6 +18487,7 @@ MonoBehaviour:
   componentName: Tuberal Region of HTH
   description: "Brain (Br)\n\tForebrain (F)\n\t\tGray Matter of Forebrain (FGM)\n\t\t\tDiencephalon
     (Die)\n\t\t\t\tHypothalamus (HTH)\n\t\t\t\t\tTuberal Region of HTH (HTHtub)"
+  panel_found: 0
 --- !u!64 &1481735462
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -18780,6 +18859,7 @@ MonoBehaviour:
   componentName: Cerebral Aqueduct
   description: "Brain (Br)\n\tMidbrain (M)\n\t\tVentricle of Midbrain (MV)\n\t\t\tCerebral
     Aqueduct (Aq)"
+  panel_found: 0
 --- !u!114 &1491887119
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19012,6 +19092,7 @@ MonoBehaviour:
   infoPanelPrefab: {fileID: 539067736}
   componentName: White Matter of Forebrain
   description: "Brain (Br)\n\tForebrain (F)\n\t\tWhite Matter of Forebrain (FWM)"
+  panel_found: 0
 --- !u!64 &1493425105
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -19289,6 +19370,7 @@ MonoBehaviour:
   componentName: Posterior Horn of Lateral Ventricle
   description: "Brain (Br)\n\tForebrain (F)\n\t\tVentricles of Forebrain (FV)\n\t\t\tLateral
     Ventricles (LV)\n\t\t\t\tPosterior Horn of Lateral Ventricle (pLV)"
+  panel_found: 0
 --- !u!114 &1496016374
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19544,6 +19626,7 @@ MonoBehaviour:
   componentName: Tegmentum of Medulla Oblongata
   description: "Brain (Br)\n\tHindbrain (H)\n\t\tGray Matter of the Hindbrain (HGM)\n\t\t\tMyelencephalon
     (Medulla Oblongata) (Mo)\n\t\t\t\tTegmentum of Medulla Oblongata (MoTg)"
+  panel_found: 0
 --- !u!114 &1500200076
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19800,6 +19883,7 @@ MonoBehaviour:
   description: "Brain (Br)\n\tForebrain (F)\n\t\tSurface Structures of Forebrain
     (FSS)\n\t\t\tCerebral Gyri and Lobules (CeG)\n\t\t\t\tLimbic Lobe (LimL)\n\t\t\t\t\tSubcallosal
     Gyrus (Parolfactory Gyrus) (SCG)"
+  panel_found: 0
 --- !u!114 &1510450816
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20055,6 +20139,7 @@ MonoBehaviour:
   componentName: Cerebellar Deep Nuclei
   description: "Brain (Br)\n\tHindbrain (H)\n\t\tGray Matter of the Hindbrain (HGM)\n\t\t\tMetencephalon
     (Met)\n\t\t\t\tCerebellum (CB)\n\t\t\t\t\tCerebellar Deep Nuclei (CbDN)"
+  panel_found: 0
 --- !u!114 &1514641969
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20283,6 +20368,7 @@ MonoBehaviour:
   componentName: Midbrain Tegmentum
   description: "Brain (Br)\n\tMidbrain (M)\n\t\tGray Matter of Midbrain (MGM)\n\t\t\tMidbrain
     Tegmentum (MTg)"
+  panel_found: 0
 --- !u!114 &1517593995
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20578,6 +20664,7 @@ MonoBehaviour:
   description: "Brain (Br)\n\tForebrain (F)\n\t\tGray Matter of Forebrain (FGM)\n\t\t\tTelencephalon
     (Tel)\n\t\t\t\tCerebral Nuclei (CN)\n\t\t\t\t\tAmygdaloid Complex (AMY)\n\t\t\t\t\t\tCorticomedial
     Nuclear Group (CMN)\n\t\t\t\t\t\t\tAmygdalohippocampal Area (AHA)"
+  panel_found: 0
 --- !u!64 &1519564687
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -20930,6 +21017,7 @@ MonoBehaviour:
   description: "Brain (Br)\n\tForebrain (F)\n\t\tGray Matter of Forebrain (FGM)\n\t\t\tTelencephalon
     (Tel)\n\t\t\t\tCerebral Nuclei (CN)\n\t\t\t\t\tBasal Nuclei (BN)\n\t\t\t\t\t\tStriatum
     (STR)\n\t\t\t\t\t\t\tPutamen (Pu)"
+  panel_found: 0
 --- !u!64 &1524113971
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -21207,6 +21295,7 @@ MonoBehaviour:
   componentName: Pontine Tegmentum
   description: "Brain (Br)\n\tHindbrain (H)\n\t\tGray Matter of the Hindbrain (HGM)\n\t\t\tMetencephalon
     (Met)\n\t\t\t\tPons (Pn)\n\t\t\t\t\tPontine Tegmentum (PnTg)"
+  panel_found: 0
 --- !u!114 &1526931647
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21436,6 +21525,7 @@ MonoBehaviour:
   description: "Brain (Br)\n\tForebrain (F)\n\t\tSurface Structures of Forebrain
     (FSS)\n\t\t\tCerebral Gyri and Lobules (CeG)\n\t\t\t\tTemporal Lobe (TemL)\n\t\t\t\t\tTransverse
     Temporal Gyrus (Heschl's gyrus) (TTG)"
+  panel_found: 0
 --- !u!114 &1527352886
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21665,6 +21755,7 @@ MonoBehaviour:
   description: "Brain (Br)\n\tForebrain (F)\n\t\tSurface Structures of Forebrain
     (FSS)\n\t\t\tCerebral Gyri and Lobules (CeG)\n\t\t\t\tParietal Lobe (ParL)\n\t\t\t\t\tInferior
     Parietal Lobule (IPL)\n\t\t\t\t\t\t Supramarginal Gyrus (SMG)"
+  panel_found: 0
 --- !u!114 &1536587533
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21887,6 +21978,7 @@ MonoBehaviour:
   description: "Brain (Br)\n\tForebrain (F)\n\t\tSurface Structures of Forebrain
     (FSS)\n\t\t\tCerebral Gyri and Lobules (CeG)\n\t\t\t\tTemporal Lobe (TemL)\n\t\t\t\t\tMiddle
     Temporal Gyrus (MTG)"
+  panel_found: 0
 --- !u!114 &1558115846
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22143,6 +22235,7 @@ MonoBehaviour:
   description: "Brain (Br)\n\tForebrain (F)\n\t\tSurface Structures of Forebrain
     (FSS)\n\t\t\tCerebral Gyri and Lobules (CeG)\n\t\t\t\tTemporal Lobe (TemL)\n\t\t\t\t\tOccipitotemporal
     (Fusiform) Gyrus, Temporal Part (FuGt)"
+  panel_found: 0
 --- !u!114 &1559268418
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22377,6 +22470,7 @@ MonoBehaviour:
   description: "Brain (Br)\n\tForebrain (F)\n\t\tGray Matter of Forebrain (FGM)\n\t\t\tTelencephalon
     (Tel)\n\t\t\t\tCerebral Nuclei (CN)\n\t\t\t\t\tAmygdaloid Complex (AMY)\n\t\t\t\t\t\tBasolateral
     Nuclear Group (BLN)\n\t\t\t\t\t\t\tLateral Nucleus (La)"
+  panel_found: 0
 --- !u!64 &1570085831
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -22607,6 +22701,7 @@ MonoBehaviour:
     (Die)\n\t\t\t\tThalamus (THM)\n\t\t\t\t\tDorsal Thalamus (DTH)\n\t\t\t\t\t\tLateral
     Nuclear Complex of Thalamus (LNC)\n\t\t\t\t\t\t\tVentral Group of Lateral Nucleus
     (VLN)\n\t\t\t\t\t\t\t\t\tVentral Lateral Nucleus of Thalamus (VL)"
+  panel_found: 0
 --- !u!64 &1574717322
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -22963,6 +23058,7 @@ MonoBehaviour:
   description: "Brain (Br)\n\tForebrain (F)\n\t\tSurface Structures of Forebrain
     (FSS)\n\t\t\tCerebral Gyri and Lobules (CeG)\n\t\t\t\tLimbic Lobe (LimL)\n\t\t\t\t\tHippocampal
     Gyrus (formation) (HiF)\n\t\t\t\t\t\tTail of Hippocampus (HiT)"
+  panel_found: 0
 --- !u!114 &1586171559
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23192,6 +23288,7 @@ MonoBehaviour:
   description: "Brain (Br)\n\tForebrain (F)\n\t\tSurface Structures of Forebrain
     (FSS)\n\t\t\tCerebral Gyri and Lobules (CeG)\n\t\t\t\tLimbic Lobe (LimL)\n\t\t\t\t\tHippocampal
     Gyrus (formation) (HiF)\n\t\t\t\t\t\tHead of Hippocampus (HiH)"
+  panel_found: 0
 --- !u!114 &1586859089
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23427,6 +23524,7 @@ MonoBehaviour:
     (Die)\n\t\t\t\tThalamus (THM)\n\t\t\t\t\tDorsal Thalamus (DTH)\n\t\t\t\t\t\tAnterior
     Nuclear Complex of Thalamus (ANC)\n\t\t\t\t\t\t\tLateral Dorsal Nucleus of Thalamus
     (LD)"
+  panel_found: 0
 --- !u!64 &1588942523
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -23732,6 +23830,7 @@ MonoBehaviour:
   description: "Brain (Br)\n\tForebrain (F)\n\t\tSurface Structures of Forebrain
     (FSS)\n\t\t\tCerebral Gyri and Lobules (CeG)\n\t\t\t\tOccipital Lobe (OccL)\n\t\t\t\t\tCuneus
     (Cun)"
+  panel_found: 0
 --- !u!114 &1608746643
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24151,6 +24250,7 @@ MonoBehaviour:
   description: "Brain (Br)\n\tForebrain (F)\n\t\tSurface Structures of Forebrain
     (FSS)\n\t\t\tCerebral Gyri and Lobules (CeG)\n\t\t\t\tFrontal Lobe (FroL)\n\t\t\t\t\t
     Middle Frontal Gyrus (MFG)"
+  panel_found: 0
 --- !u!114 &1619498264
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24407,6 +24507,7 @@ MonoBehaviour:
   description: "Brain (Br)\n\tForebrain (F)\n\t\tSurface Structures of Forebrain
     (FSS)\n\t\t\tCerebral Gyri and Lobules (CeG)\n\t\t\t\tTemporal Lobe (TemL)\n\t\t\t\t\tSuperior
     Temporal Gyrus (STG)"
+  panel_found: 0
 --- !u!114 &1620861589
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24874,6 +24975,7 @@ MonoBehaviour:
   componentName: Substantia Nigra
   description: "Brain (Br)\n\tMidbrain (M)\n\t\tGray Matter of Midbrain (MGM)\n\t\t\tMidbrain
     Tegmentum (MTg)\n\t\t\t\tSubstantia Nigra (SN)"
+  panel_found: 0
 --- !u!114 &1647776193
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25173,6 +25275,7 @@ MonoBehaviour:
     (FSS)\n\t\t\tCerebral Gyri and Lobules (CeG)\n\t\t\t\tFrontal Lobe (FroL)\n\t\t\t\t\t
     Inferior Frontal Gyrus (IFG)\n\t\t\t\t\t\tInferior Frontal Gyrus, Opercular Part
     (IFGop)"
+  panel_found: 0
 --- !u!114 &1655637839
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25381,6 +25484,7 @@ MonoBehaviour:
     (Die)\n\t\t\t\tThalamus (THM)\n\t\t\t\t\tDorsal Thalamus (DTH)\n\t\t\t\t\t\tPosterior
     Nuclear Complex of Thalamus (PoN)\n\t\t\t\t\t\t\tLateral Geniculate Nucleus (LG)\n\t\t\t\t\t\t\t\t\tDorsal
     Lateral Geniculate Nucleus (DLG)"
+  panel_found: 0
 --- !u!64 &1657649317
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -25631,6 +25735,7 @@ MonoBehaviour:
   componentName: Superior Cerebellar Peduncle (Brachium Conjunctivum)
   description: "Brain (Br)\n\tMidbrain (M)\n\t\tWhite Matter of Midbrain (MWM)\n\t\t\tSuperior
     Cerebellar Peduncle (Brachium Conjunctivum) (scp)"
+  panel_found: 0
 --- !u!114 &1663150651
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25837,6 +25942,7 @@ MonoBehaviour:
   componentName: Hypothalamus
   description: "Brain (Br)\n\tForebrain (F)\n\t\tGray Matter of Forebrain (FGM)\n\t\t\tDiencephalon
     (Die)\n\t\t\t\tHypothalamus (HTH)"
+  panel_found: 0
 --- !u!64 &1669241760
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -26067,6 +26173,7 @@ MonoBehaviour:
     (Die)\n\t\t\t\tThalamus (THM)\n\t\t\t\t\tDorsal Thalamus (DTH)\n\t\t\t\t\t\tLateral
     Nuclear Complex of Thalamus (LNC)\n\t\t\t\t\t\t\tDorsal Group of Lateral Nucleus
     (DLN)\n\t\t\t\t\t\t\t\t\t Pulvinar of Thalamus (Pul)"
+  panel_found: 0
 --- !u!64 &1685978113
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -26989,6 +27096,7 @@ MonoBehaviour:
   description: "Brain (Br)\n\tForebrain (F)\n\t\tSurface Structures of Forebrain
     (FSS)\n\t\t\tCerebral Gyri and Lobules (CeG)\n\t\t\t\tOccipital Lobe (OccL)\n\t\t\t\t\tOccipitotemporal
     (Fusiform) Gyrus, Occipital Part (FuGo)"
+  panel_found: 0
 --- !u!114 &1743583244
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32348,6 +32456,7 @@ MonoBehaviour:
   description: "Brain (Br)\n\tForebrain (F)\n\t\tSurface Structures of Forebrain
     (FSS)\n\t\t\tCerebral Gyri and Lobules (CeG)\n\t\t\t\tTemporal Lobe (TemL)\n\t\t\t\t\tPlanum
     Polare (PLP)"
+  panel_found: 0
 --- !u!114 &1752277585
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32581,6 +32690,7 @@ MonoBehaviour:
   componentName: Subthalamic Nucleus
   description: "Brain (Br)\n\tForebrain (F)\n\t\tGray Matter of Forebrain (FGM)\n\t\t\tDiencephalon
     (Die)\n\t\t\t\tSubthalamus (SubTH)\n\t\t\t\t\tSubthalamic Nucleus (STH)"
+  panel_found: 0
 --- !u!64 &1757284882
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -32831,6 +32941,7 @@ MonoBehaviour:
   componentName: Pretectal Region
   description: "Brain (Br)\n\tMidbrain (M)\n\t\tGray Matter of Midbrain (MGM)\n\t\t\tPretectal
     Region (PTR)"
+  panel_found: 0
 --- !u!114 &1762832794
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33064,6 +33175,7 @@ MonoBehaviour:
   componentName: Mammillary Region of HTH
   description: "Brain (Br)\n\tForebrain (F)\n\t\tGray Matter of Forebrain (FGM)\n\t\t\tDiencephalon
     (Die)\n\t\t\t\tHypothalamus (HTH)\n\t\t\t\t\tMammillary Region of HTH (HTHma)"
+  panel_found: 0
 --- !u!64 &1771181490
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -33320,6 +33432,7 @@ MonoBehaviour:
   description: "Brain (Br)\n\tForebrain (F)\n\t\tGray Matter of Forebrain (FGM)\n\t\t\tDiencephalon
     (Die)\n\t\t\t\tThalamus (THM)\n\t\t\t\t\tDorsal Thalamus (DTH)\n\t\t\t\t\t\tPosterior
     Nuclear Complex of Thalamus (PoN)\n\t\t\t\t\t\t\tMedial Geniculate Nuclei (MG)"
+  panel_found: 0
 --- !u!64 &1773316666
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -33576,6 +33689,7 @@ MonoBehaviour:
   description: "Brain (Br)\n\tForebrain (F)\n\t\tGray Matter of Forebrain (FGM)\n\t\t\tDiencephalon
     (Die)\n\t\t\t\tThalamus (THM)\n\t\t\t\t\tEpithalamus (ETH)\n\t\t\t\t\t\tHabenular
     Nuclei (HN)"
+  panel_found: 0
 --- !u!64 &1774709287
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -33805,6 +33919,7 @@ MonoBehaviour:
   description: "Brain (Br)\n\tHindbrain (H)\n\t\tGray Matter of the Hindbrain (HGM)\n\t\t\tMetencephalon
     (Met)\n\t\t\t\tCerebellum (CB)\n\t\t\t\t\tCerebellar Cortex (CBC)\n\t\t\t\t\t\tCerebellar
     Hemisphere (CBH)\n\t\t\t\t\t\t\tLateral Hemisphere of Cerebellum (CBL)"
+  panel_found: 0
 --- !u!114 &1775139800
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34344,6 +34459,7 @@ MonoBehaviour:
   description: "Brain (Br)\n\tForebrain (F)\n\t\tSurface Structures of Forebrain
     (FSS)\n\t\t\tCerebral Gyri and Lobules (CeG)\n\t\t\t\tLimbic Lobe (LimL)\n\t\t\t\t\tCingulo-Parahippocampal
     Isthmus (IsCPH)"
+  panel_found: 0
 --- !u!114 &1785786640
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34573,6 +34689,7 @@ MonoBehaviour:
   description: "Brain (Br)\n\tForebrain (F)\n\t\tSurface Structures of Forebrain
     (FSS)\n\t\t\tCerebral Gyri and Lobules (CeG)\n\t\t\t\tParietal Lobe (ParL)\n\t\t\t\t\tInferior
     Parietal Lobule (IPL)\n\t\t\t\t\t\t Angular Gyrus (AnG)"
+  panel_found: 0
 --- !u!114 &1792609075
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34807,6 +34924,7 @@ MonoBehaviour:
   description: "Brain (Br)\n\tForebrain (F)\n\t\tGray Matter of Forebrain (FGM)\n\t\t\tTelencephalon
     (Tel)\n\t\t\t\tCerebral Nuclei (CN)\n\t\t\t\t\tBasal Nuclei (BN)\n\t\t\t\t\t\tGlobus
     Pallidus (GP)\n\t\t\t\t\t\t\tInternal Segment of Globus Pallidus (GPi)"
+  panel_found: 0
 --- !u!64 &1803110144
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -35084,6 +35202,7 @@ MonoBehaviour:
   componentName: Corpus Callosum
   description: "Brain (Br)\n\tForebrain (F)\n\t\tWhite Matter of Forebrain (FWM)\n\t\t\tForebrain
     Commissural Fiber Tracts (FCFT)\n\t\t\t\tCorpus Callosum (cc)"
+  panel_found: 0
 --- !u!114 &1804291906
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35340,6 +35459,7 @@ MonoBehaviour:
   description: "Brain (Br)\n\tForebrain (F)\n\t\tSurface Structures of Forebrain
     (FSS)\n\t\t\tCerebral Gyri and Lobules (CeG)\n\t\t\t\tParietal Lobe (ParL)\n\t\t\t\t\tPrecuneus
     (PrCun)"
+  panel_found: 0
 --- !u!114 &1804396656
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35574,6 +35694,7 @@ MonoBehaviour:
   description: "Brain (Br)\n\tForebrain (F)\n\t\tGray Matter of Forebrain (FGM)\n\t\t\tTelencephalon
     (Tel)\n\t\t\t\tCerebral Nuclei (CN)\n\t\t\t\t\tBasal Nuclei (BN)\n\t\t\t\t\t\tStriatum
     (STR)\n\t\t\t\t\t\t\tNucleus Accumbens (NAC)"
+  panel_found: 0
 --- !u!64 &1804675154
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -35901,6 +36022,7 @@ MonoBehaviour:
   description: "Brain (Br)\n\tForebrain (F)\n\t\tSurface Structures of Forebrain
     (FSS)\n\t\t\tCerebral Gyri and Lobules (CeG)\n\t\t\t\tFrontal Lobe (FroL)\n\t\t\t\t\t
     Gyrus Rectus (ReG)"
+  panel_found: 0
 --- !u!114 &1809104408
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -36632,6 +36754,7 @@ MonoBehaviour:
     (Tel)\n\t\t\t\tCerebral Nuclei (CN)\n\t\t\t\t\tAmygdaloid Complex (AMY)\n\t\t\t\t\t\tCorticomedial
     Nuclear Group (CMN)\n\t\t\t\t\t\t\tCortical Amygdaloid Nuclei (Co)\n\t\t\t\t\t\t\t\t\tAnterior
     Cortical Nucleus (CoA)"
+  panel_found: 0
 --- !u!64 &1819038260
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -36879,10 +37002,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   infoPanelPrefab: {fileID: 539067736}
-  componentName: Cingulate Gyrus, Rostral (anterior) Part
+  componentName: Cingulate Gyrus, Rostral (Anterior) Part
   description: "Brain (Br)\n\tForebrain (F)\n\t\tSurface Structures of Forebrain
     (FSS)\n\t\t\tCerebral Gyri and Lobules (CeG)\n\t\t\t\tLimbic Lobe (LimL)\n\t\t\t\t\tCingulate
     Gyrus (CgG)\n\t\t\t\t\t\tCingulate Gyrus, Rostral (anterior) Part (CgGr)"
+  panel_found: 0
 --- !u!114 &1820976439
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -37139,6 +37263,7 @@ MonoBehaviour:
   description: "Brain (Br)\n\tForebrain (F)\n\t\tGray Matter of Forebrain (FGM)\n\t\t\tTelencephalon
     (Tel)\n\t\t\t\tCerebral Nuclei (CN)\n\t\t\t\t\tBasal Nuclei (BN)\n\t\t\t\t\t\tStriatum
     (STR)\n\t\t\t\t\t\t\tPutamen (Pu)\n\t\t\t\t\t\t\t\t\tPosteroventral Putamen (PuPV)"
+  panel_found: 0
 --- !u!114 &1823809839
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -37581,6 +37706,7 @@ MonoBehaviour:
     (FSS)\n\t\t\tCerebral Gyri and Lobules (CeG)\n\t\t\t\tFrontal Lobe (FroL)\n\t\t\t\t\t
     Inferior Frontal Gyrus (IFG)\n\t\t\t\t\t\tInferior Frontal Gyrus, Triangular
     Part (IFGtr)"
+  panel_found: 0
 --- !u!114 &1836912862
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -37810,6 +37936,7 @@ MonoBehaviour:
   description: "Brain (Br)\n\tForebrain (F)\n\t\tSurface Structures of Forebrain
     (FSS)\n\t\t\tCerebral Gyri and Lobules (CeG)\n\t\t\t\tTemporal Lobe (TemL)\n\t\t\t\t\tTemporal
     Pole (TP)"
+  panel_found: 0
 --- !u!114 &1837049773
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38017,6 +38144,7 @@ MonoBehaviour:
   description: "Brain (Br)\n\tForebrain (F)\n\t\tSurface Structures of Forebrain
     (FSS)\n\t\t\tCerebral Gyri and Lobules (CeG)\n\t\t\t\tTemporal Lobe (TemL)\n\t\t\t\t\tInferior
     Temporal Gyrus (ITG)"
+  panel_found: 0
 --- !u!114 &1838574641
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38224,6 +38352,7 @@ MonoBehaviour:
   description: "Brain (Br)\n\tForebrain (F)\n\t\tGray Matter of Forebrain (FGM)\n\t\t\tTelencephalon
     (Tel)\n\t\t\t\tCerebral Cortex (Cx)\n\t\t\t\t\tAllocortex (ACx)\n\t\t\t\t\t\tPaleocortex
     (PalCx)\n\t\t\t\t\t\t\tOlfactory Bulb (OB)"
+  panel_found: 0
 --- !u!64 &1851787406
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -38337,7 +38466,31 @@ MonoBehaviour:
       m_Calls: []
   m_Activated:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1851787402}
+        m_TargetAssemblyTypeName: BrainComponentInfo, Assembly-CSharp
+        m_MethodName: ShowInfo
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1851787412}
+        m_TargetAssemblyTypeName: BrainComponentFunc, Assembly-CSharp
+        m_MethodName: ShowInfo
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_Deactivated:
     m_PersistentCalls:
       m_Calls: []
@@ -38434,8 +38587,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   functionPanelPrefab: {fileID: 1216081696}
-  functions: eeeeeeee
-  otherComps: eeeeeeeeeee
+  functions: 'Function: Processes information about odors; essential for the sense
+    of smell.'
+  otherComps: 'Associated Regions: Anterior Olfactory Nucleus, Olfactory Tract.'
 --- !u!64 &1864265269
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -39368,6 +39522,7 @@ MonoBehaviour:
     (Tel)\n\t\t\t\tCerebral Nuclei (CN)\n\t\t\t\t\tAmygdaloid Complex (AMY)\n\t\t\t\t\t\tCorticomedial
     Nuclear Group (CMN)\n\t\t\t\t\t\t\tCortical Amygdaloid Nuclei (Co)\n\t\t\t\t\t\t\t\t\tPosterior
     Cortical Nucleus (CoP)"
+  panel_found: 0
 --- !u!64 &1891004112
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -39645,6 +39800,7 @@ MonoBehaviour:
   componentName: Mammillothalamic Tract
   description: "Brain (Br)\n\tForebrain (F)\n\t\tWhite Matter of Forebrain (FWM)\n\t\t\tForebrain
     Ipsilateral Fiber Tracts (FIFT)\n\t\t\t\tMammillothalamic Tract (mtt)"
+  panel_found: 0
 --- !u!114 &1897999533
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -39880,6 +40036,7 @@ MonoBehaviour:
     (Die)\n\t\t\t\tThalamus (THM)\n\t\t\t\t\tDorsal Thalamus (DTH)\n\t\t\t\t\t\tIntralaminar
     Nuclear Complex (ILN)\n\t\t\t\t\t\t\tPosterior Group of Intralaminar Nuclei (PILN)\n\t\t\t\t\t\t\t\t\tParafascicular
     Nucleus of Thalamus (Pf)"
+  panel_found: 0
 --- !u!64 &1899064186
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -40130,6 +40287,7 @@ MonoBehaviour:
   componentName: Inferior Cerebellar Peduncle
   description: "Brain (Br)\n\tHindbrain (H)\n\t\tWhite Matter of Hindbrain (HWM)\n\t\t\tInferior
     Cerebellar Peduncle (icp)"
+  panel_found: 0
 --- !u!114 &1909468898
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -40385,6 +40543,7 @@ MonoBehaviour:
   componentName: Pyramidal Part of Medulla Oblongata
   description: "Brain (Br)\n\tHindbrain (H)\n\t\tGray Matter of the Hindbrain (HGM)\n\t\t\tMyelencephalon
     (Medulla Oblongata) (Mo)\n\t\t\t\tPyramidal Part of Medulla Oblongata (MoPy)"
+  panel_found: 0
 --- !u!114 &1915510360
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -40735,6 +40894,7 @@ MonoBehaviour:
   componentName: Fornix
   description: "Brain (Br)\n\tForebrain (F)\n\t\tWhite Matter of Forebrain (FWM)\n\t\t\tForebrain
     Ipsilateral Fiber Tracts (FIFT)\n\t\t\t\tFornix (fx)"
+  panel_found: 0
 --- !u!114 &1921319837
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -40964,6 +41124,7 @@ MonoBehaviour:
   description: "Brain (Br)\n\tForebrain (F)\n\t\tSurface Structures of Forebrain
     (FSS)\n\t\t\tCerebral Gyri and Lobules (CeG)\n\t\t\t\tFrontal Lobe (FroL)\n\t\t\t\t\t
     Precentral Gyrus (PrCG)"
+  panel_found: 0
 --- !u!114 &1926958063
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -41219,6 +41380,7 @@ MonoBehaviour:
   componentName: Optic Tract
   description: "Brain (Br)\n\tForebrain (F)\n\t\tWhite Matter of Forebrain (FWM)\n\t\t\tForebrain
     Ipsilateral Fiber Tracts (FIFT)\n\t\t\t\tOptic Tract (ot)"
+  panel_found: 0
 --- !u!114 &1931950889
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -41549,6 +41711,7 @@ MonoBehaviour:
   componentName: Central Canal of Medulla Oblongata
   description: "Brain (Br)\n\tHindbrain (H)\n\t\tVentricles of Hindbrain (HV)\n\t\t\t
     Central Canal of Medulla Oblongata (cec)"
+  panel_found: 0
 --- !u!114 &1941743371
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -41755,6 +41918,7 @@ MonoBehaviour:
   componentName: Olfactory Tract
   description: "Brain (Br)\n\tForebrain (F)\n\t\tWhite Matter of Forebrain (FWM)\n\t\t\tForebrain
     Ipsilateral Fiber Tracts (FIFT)\n\t\t\t\tOlfactory Tract (olt)"
+  panel_found: 0
 --- !u!114 &1948425642
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42223,6 +42387,7 @@ MonoBehaviour:
   description: "Brain (Br)\n\tForebrain (F)\n\t\tSurface Structures of Forebrain
     (FSS)\n\t\t\tCerebral Gyri and Lobules (CeG)\n\t\t\t\tFrontal Lobe (FroL)\n\t\t\t\t\t
     Anterior Intermediate Orbital Gyrus (AOrG)"
+  panel_found: 0
 --- !u!114 &1960366397
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42467,6 +42632,7 @@ MonoBehaviour:
   description: "Brain (Br)\n\tForebrain (F)\n\t\tSurface Structures of Forebrain
     (FSS)\n\t\t\tCerebral Gyri and Lobules (CeG)\n\t\t\t\tTemporal Lobe (TemL)\n\t\t\t\t\tPlanum
     Temporale (PLT)"
+  panel_found: 0
 --- !u!114 &1969179049
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42935,6 +43101,7 @@ MonoBehaviour:
   description: "Brain (Br)\n\tForebrain (F)\n\t\tSurface Structures of Forebrain
     (FSS)\n\t\t\tCerebral Gyri and Lobules (CeG)\n\t\t\t\t Insular Lobe (InL)\n\t\t\t\t\tLong
     Insular Gyri (LIG)"
+  panel_found: 0
 --- !u!114 &1977600650
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -43144,6 +43311,7 @@ MonoBehaviour:
     Nuclear Complex of Thalamus (LNC)\n\t\t\t\t\t\t\tVentral Group of Lateral Nucleus
     (VLN)\n\t\t\t\t\t\t\t\t\tVentral Posterior Nucleus of Thalamus (VPT)\n\t\t\t\t\t\t\t\t\t\tVentral
     Posterior Medial Nucleus (VPM)"
+  panel_found: 0
 --- !u!64 &1979215139
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -43422,6 +43590,7 @@ MonoBehaviour:
   description: "Brain (Br)\n\tForebrain (F)\n\t\tSurface Structures of Forebrain
     (FSS)\n\t\t\tCerebral Gyri and Lobules (CeG)\n\t\t\t\tOccipital Lobe (OccL)\n\t\t\t\t\tInferior
     Occipital Gyrus (IOG)"
+  panel_found: 0
 --- !u!114 &1979640099
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -43651,6 +43820,7 @@ MonoBehaviour:
   description: "Brain (Br)\n\tForebrain (F)\n\t\tSurface Structures of Forebrain
     (FSS)\n\t\t\tCerebral Gyri and Lobules (CeG)\n\t\t\t\tParietal Lobe (ParL)\n\t\t\t\t\tPostcentral
     Gyrus (PoCG)"
+  panel_found: 0
 --- !u!114 &1990370901
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -43879,6 +44049,7 @@ MonoBehaviour:
   componentName: Fourth Ventricle
   description: "Brain (Br)\n\tHindbrain (H)\n\t\tVentricles of Hindbrain (HV)\n\t\t\t
     Fourth Ventricle (4V)"
+  panel_found: 0
 --- !u!114 &2001427032
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -44525,6 +44696,7 @@ MonoBehaviour:
   description: "Brain (Br)\n\tForebrain (F)\n\t\tGray Matter of Forebrain (FGM)\n\t\t\tTelencephalon
     (Tel)\n\t\t\t\tCerebral Nuclei (CN)\n\t\t\t\t\tBasal Nuclei (BN)\n\t\t\t\t\t\tGlobus
     Pallidus (GP)\n\t\t\t\t\t\t\tExternal Segment of Globus Pallidus (GPe)"
+  panel_found: 0
 --- !u!64 &2026809579
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -44754,6 +44926,7 @@ MonoBehaviour:
   description: "Brain (Br)\n\tForebrain (F)\n\t\tGray Matter of Forebrain (FGM)\n\t\t\tTelencephalon
     (Tel)\n\t\t\t\tCerebral Nuclei (CN)\n\t\t\t\t\tExtended Amygdala (EXA)\n\t\t\t\t\t\tBed
     Nucleus of Stria Terminalis (BNST)"
+  panel_found: 0
 --- !u!64 &2027975569
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -45221,6 +45394,7 @@ MonoBehaviour:
   componentName: Inferior Colliculus
   description: "Brain (Br)\n\tMidbrain (M)\n\t\tGray Matter of Midbrain (MGM)\n\t\t\tMidbrain
     Tectum (MTc)\n\t\t\t\tInferior Colliculus (IC)"
+  panel_found: 0
 --- !u!114 &2042075606
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -45662,6 +45836,7 @@ MonoBehaviour:
   description: "Brain (Br)\n\tHindbrain (H)\n\t\tGray Matter of the Hindbrain (HGM)\n\t\t\tMetencephalon
     (Met)\n\t\t\t\tCerebellum (CB)\n\t\t\t\t\tCerebellar Cortex (CBC)\n\t\t\t\t\t\tCerebellar
     Vermis (CBV)"
+  panel_found: 0
 --- !u!114 &2054511375
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -45897,6 +46072,7 @@ MonoBehaviour:
     (Tel)\n\t\t\t\tCerebral Nuclei (CN)\n\t\t\t\t\tBasal Nuclei (BN)\n\t\t\t\t\t\tStriatum
     (STR)\n\t\t\t\t\t\t\tCaudate Nucleus (Ca)\n\t\t\t\t\t\t\t\t\tTail of Caudate
     (CaT)"
+  panel_found: 0
 --- !u!64 &2067265813
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -46338,6 +46514,7 @@ MonoBehaviour:
   description: "Brain (Br)\n\tHindbrain (H)\n\t\tGray Matter of the Hindbrain (HGM)\n\t\t\tMyelencephalon
     (Medulla Oblongata) (Mo)\n\t\t\t\tTegmentum of Medulla Oblongata (MoTg)\n\t\t\t\t\tPrecerebellar
     Nuclei (PrCbN)\n\t\t\t\t\t\t Inferior Olive (IO)"
+  panel_found: 0
 --- !u!114 &2075567397
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -46567,6 +46744,7 @@ MonoBehaviour:
   description: "Brain (Br)\n\tHindbrain (H)\n\t\tGray Matter of the Hindbrain (HGM)\n\t\t\tMetencephalon
     (Met)\n\t\t\t\tCerebellum (CB)\n\t\t\t\t\tCerebellar Cortex (CBC)\n\t\t\t\t\t\tCerebellar
     Hemisphere (CBH)\n\t\t\t\t\t\t\tParavermis of Cerebellum (CBPV)"
+  panel_found: 0
 --- !u!114 &2076476225
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -46801,6 +46979,7 @@ MonoBehaviour:
   description: "Brain (Br)\n\tForebrain (F)\n\t\tGray Matter of Forebrain (FGM)\n\t\t\tDiencephalon
     (Die)\n\t\t\t\tThalamus (THM)\n\t\t\t\t\tEpithalamus (ETH)\n\t\t\t\t\t\tPineal
     Body (Pin)"
+  panel_found: 0
 --- !u!64 &2080799198
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -47067,6 +47246,7 @@ MonoBehaviour:
   description: "Brain (Br)\n\tForebrain (F)\n\t\tSurface Structures of Forebrain
     (FSS)\n\t\t\tCerebral Gyri and Lobules (CeG)\n\t\t\t\tLimbic Lobe (LimL)\n\t\t\t\t\tParahippocampal
     Gyrus (PHG)\n\t\t\t\t\t\tPosterior Parahippocampal Gyrus (PPH)"
+  panel_found: 0
 --- !u!114 &2083009346
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -47296,6 +47476,7 @@ MonoBehaviour:
   description: "Brain (Br)\n\tForebrain (F)\n\t\tSurface Structures of Forebrain
     (FSS)\n\t\t\tCerebral Gyri and Lobules (CeG)\n\t\t\t\tFrontal Lobe (FroL)\n\t\t\t\t\t
     Frontal Pole (FP)"
+  panel_found: 0
 --- !u!114 &2086675428
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -47553,6 +47734,7 @@ MonoBehaviour:
     (FSS)\n\t\t\tCerebral Gyri and Lobules (CeG)\n\t\t\t\tTemporal Lobe (TemL)\n\t\t\t\t\tOccipitotemporal
     (Fusiform) Gyrus, Temporal Part (FuGt)\n\t\t\t\t\t\tPerirhinal Gyrus (Rostral
     Part of FuGt) (PRG)"
+  panel_found: 0
 --- !u!114 &2092427042
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -47788,6 +47970,7 @@ MonoBehaviour:
     (Tel)\n\t\t\t\tCerebral Nuclei (CN)\n\t\t\t\t\tBasal Nuclei (BN)\n\t\t\t\t\t\tStriatum
     (STR)\n\t\t\t\t\t\t\tCaudate Nucleus (Ca)\n\t\t\t\t\t\t\t\t\tHead of Caudate
     (CaH)"
+  panel_found: 0
 --- !u!64 &2098195310
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -48028,7 +48211,7 @@ Transform:
   m_GameObject: {fileID: 2107226763}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0.085, y: 0.004, z: -0.093}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -48145,6 +48328,7 @@ MonoBehaviour:
   componentName: Body of Lateral Ventricle
   description: "Brain (Br)\n\tForebrain (F)\n\t\tVentricles of Forebrain (FV)\n\t\t\tLateral
     Ventricles (LV)\n\t\t\t\tBody of Lateral Ventricle (bLV)"
+  panel_found: 0
 --- !u!114 &2107253828
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -48401,6 +48585,7 @@ MonoBehaviour:
   description: "Brain (Br)\n\tForebrain (F)\n\t\tSurface Structures of Forebrain
     (FSS)\n\t\t\tCerebral Gyri and Lobules (CeG)\n\t\t\t\tLimbic Lobe (LimL)\n\t\t\t\t\tParahippocampal
     Gyrus (PHG)\n\t\t\t\t\t\tAnterior Parahippocampal Gyrus (APH)"
+  panel_found: 0
 --- !u!114 &2108062207
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -48630,6 +48815,7 @@ MonoBehaviour:
   description: "Brain (Br)\n\tForebrain (F)\n\t\tSurface Structures of Forebrain
     (FSS)\n\t\t\tCerebral Gyri and Lobules (CeG)\n\t\t\t\tParietal Lobe (ParL)\n\t\t\t\t\tParacentral
     Lobule, Caudal Part (PCLc)"
+  panel_found: 0
 --- !u!114 &2109127272
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -48858,6 +49044,7 @@ MonoBehaviour:
   componentName: Anterior Commissure
   description: "Brain (Br)\n\tForebrain (F)\n\t\tWhite Matter of Forebrain (FWM)\n\t\t\tForebrain
     Commissural Fiber Tracts (FCFT)\n\t\t\t\tAnterior Commissure (ac)"
+  panel_found: 0
 --- !u!114 &2110603611
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -49086,6 +49273,7 @@ MonoBehaviour:
   componentName: Atrium of Lateral Ventricle
   description: "Brain (Br)\n\tForebrain (F)\n\t\tVentricles of Forebrain (FV)\n\t\t\tLateral
     Ventricles (LV)\n\t\t\t\tAtrium of Lateral Ventricle (xLV)"
+  panel_found: 0
 --- !u!114 &2119857312
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -49314,6 +49502,7 @@ MonoBehaviour:
   componentName: Superior Colliculus
   description: "Brain (Br)\n\tMidbrain (M)\n\t\tGray Matter of Midbrain (MGM)\n\t\t\tMidbrain
     Tectum (MTc)\n\t\t\t\tSuperior Colliculus (SC)"
+  panel_found: 0
 --- !u!114 &2123016211
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -49570,6 +49759,7 @@ MonoBehaviour:
   description: "Brain (Br)\n\tForebrain (F)\n\t\tSurface Structures of Forebrain
     (FSS)\n\t\t\tCerebral Gyri and Lobules (CeG)\n\t\t\t\tLimbic Lobe (LimL)\n\t\t\t\t\tCingulate
     Gyrus (CgG)\n\t\t\t\t\t\tCingulate Gyrus, Caudal (Posterior) Part (CgGc)"
+  panel_found: 0
 --- !u!114 &2134747075
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -49777,6 +49967,7 @@ MonoBehaviour:
   description: "Brain (Br)\n\tForebrain (F)\n\t\tSurface Structures of Forebrain
     (FSS)\n\t\t\tCerebral Gyri and Lobules (CeG)\n\t\t\t\tOccipital Lobe (OccL)\n\t\t\t\t\tOccipital
     Pole (OP)"
+  panel_found: 0
 --- !u!114 &2135528080
 MonoBehaviour:
   m_ObjectHideFlags: 0

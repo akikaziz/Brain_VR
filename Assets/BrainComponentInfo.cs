@@ -12,16 +12,19 @@ public class BrainComponentInfo : MonoBehaviour
 
     private TMP_Text infoText;
 
+    public bool panel_found = false;
+
     void Start()
     {
         // Find the TextMeshPro component inside the panel
-        infoText = infoPanelPrefab.GetComponentInChildren<TMP_Text>();
+        infoText = infoPanelPrefab.GetComponentInChildren<TMP_Text>(true);
+        //if (infoText != null ) panel_found = true;
 
         // Ensure the panel is initially hidden
         infoPanelPrefab.SetActive(false);
     }
 
-    private void OnMouseDown()
+    public void ShowInfo()
     {
         // Ensure the panel is active
         infoPanelPrefab.SetActive(true);
@@ -37,4 +40,6 @@ public class BrainComponentInfo : MonoBehaviour
     //        ShowInfo(); // Update text each time B is pressed
     //    }
     //}
+
+    
 }
