@@ -1,0 +1,54 @@
+{
+    "name": "VRInputActions",
+    "maps": [
+        {
+            "name": "VRControls",
+            "id": "0ac28df7-44d4-4b97-8f4c-774e4ce64fc6",
+            "actions": [
+                {
+                    "name": "ExplodeAction",
+                    "type": "Button",
+                    "id": "380b249c-746e-4081-9e50-8810eeb51917",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "ReturnAction",
+                    "type": "Button",
+                    "id": "e00e8fcb-6bb6-41d1-b781-9dbe5a13f8d3",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "49fff954-a165-4af7-bc7c-b831f083b8f1",
+                    "path": "<XRController>{RightHand}/{PrimaryButton}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ExplodeAction",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "02efa197-2754-4d55-bcc8-70eda24899dc",
+                    "path": "<XRController>{RightHand}/{SecondaryButton}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ReturnAction",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

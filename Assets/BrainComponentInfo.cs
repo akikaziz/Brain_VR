@@ -1,5 +1,6 @@
 using TMPro;
 using UnityEngine;
+using UnityEngine.XR.Interaction.Toolkit;
 
 public class BrainComponentInfo : MonoBehaviour
 {
@@ -21,10 +22,10 @@ public class BrainComponentInfo : MonoBehaviour
         //if (infoText != null ) panel_found = true;
 
         // Ensure the panel is initially hidden
-        infoPanelPrefab.SetActive(false);
+        //infoPanelPrefab.SetActive(false);
     }
 
-    public void ShowInfo()
+    public void ShowInfo(ActivateEventArgs activateEventArgs)
     {
         // Ensure the panel is active
         infoPanelPrefab.SetActive(true);
@@ -32,14 +33,5 @@ public class BrainComponentInfo : MonoBehaviour
         // Update the text content
         infoText.text = $"{componentName}\n{description}";
     }
-
-    //void Update()
-    //{
-    //    if (Input.GetButtonDown("Fire2")) // Detect B button press
-    //    {
-    //        ShowInfo(); // Update text each time B is pressed
-    //    }
-    //}
-
     
 }

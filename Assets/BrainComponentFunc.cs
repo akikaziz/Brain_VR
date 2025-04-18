@@ -1,9 +1,10 @@
 using TMPro;
 using UnityEngine;
+using UnityEngine.XR.Interaction.Toolkit;
 
 public class BrainComponentFunc : MonoBehaviour
 {
-    public GameObject functionPanelPrefab; // Prefab for the info panel
+    public GameObject functionPanelPrefab; // Prefab for the func panel
 
     [Header("Functions")]
     [TextArea]
@@ -19,23 +20,17 @@ public class BrainComponentFunc : MonoBehaviour
         funcText = functionPanelPrefab.GetComponentInChildren<TMP_Text>(true);
 
         // Ensure the panel is initially hidden
-        functionPanelPrefab.SetActive(false);
+        //functionPanelPrefab.SetActive(false);
     }
 
-    public void ShowInfo()
+    public void ShowFunc(ActivateEventArgs activateEventArgs)
     {
+
         // Ensure the panel is active
         functionPanelPrefab.SetActive(true);
 
         // Update the text content
-        funcText.text = $"{functions}\n{otherComps}";
+        funcText.text = $"{functions}\n\n\n{otherComps}";
     }
 
-    //void Update()
-    //{
-    //    if (Input.GetButtonDown("Fire2")) // Detect B button press
-    //    {
-    //        ShowInfo(); // Update text each time B is pressed
-    //    }
-    //}
 }

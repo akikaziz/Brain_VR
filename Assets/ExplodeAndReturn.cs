@@ -1,26 +1,36 @@
+using Unity.Mathematics;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class ExplodeAndReturn : MonoBehaviour
 {
-    public float explosionForce = 50f;
-    public float returnTime = 10f;
+
+    private VRInputActions inputActions;
+
+    public Transform[] brainPcs;
+
+    public Quaternion[] origRot;
+
+    public GameObject infoPanelPrefab; // Prefab for the info panel
+    public GameObject functionPanelPrefab; // Prefab for the func panel
+
     private Vector3[] originalPositions;
     private bool exploded = false;
 
-    public GameObject infoPanelPrefab; // Prefab for the info panel
-    public static GameObject currentInfoPanel; // Reference to the currently active info panel (shared)
-
     void Start()
     {
-        // Store original positions of the parts
         int childCount = transform.childCount;
+
+        brainPcs = new Transform[childCount];
         originalPositions = new Vector3[childCount];
+        origRot = new Quaternion[childCount];
+
         for (int i = 0; i < childCount; i++)
         {
-            originalPositions[i] = transform.GetChild(i).localPosition;
+            brainPcs[i] = transform.GetChild(i);
+            origRot[i] = brainPcs[i].rotation;
+            originalPositions[i] = brainPcs[i].position;
 
-            // Add Rigidbody for interaction if not already present
             Transform child = transform.GetChild(i);
             if (child.GetComponent<Rigidbody>() == null)
                 child.gameObject.AddComponent<Rigidbody>();
@@ -32,37 +42,54 @@ public class ExplodeAndReturn : MonoBehaviour
         if (!exploded)
         {
             exploded = true;
-            for (int i = 0; i < transform.childCount; i++)
+            for (int i = 0; i < brainPcs.Length; i++)
             {
-                Transform part = transform.GetChild(i);
-                MeshRenderer mesh = part.GetComponent<MeshRenderer>();
+                Transform part = brainPcs[i];
 
-                // Calculate new position for explosion effect
+                MeshRenderer mesh = part.GetComponent<MeshRenderer>();
                 Vector3 pos = mesh.bounds.center - transform.position;
                 Vector3 newPos = 5 * pos;
                 part.position = newPos;
             }
-
-            Invoke("ReturnParts", returnTime);
         }
     }
 
-    //private void ReturnParts()
-    //{
-    //    for (int i = 0; i < transform.childCount; i++)
-    //    {
-    //        Transform part = transform.GetChild(i);
-    //        part.localPosition = Vector3.Lerp(part.localPosition, originalPositions[i], Time.deltaTime * 2);
-    //    }
-
-    //    exploded = false;
-    //}
-
-    void Update()
+    public void Return()
     {
-        if (Input.GetButtonDown("Fire1"))
+        exploded = false;
+        for (int i = 0; i < brainPcs.Length; i++)
         {
-            Explode();
+            Transform part = brainPcs[i];
+            Rigidbody rb = part.GetComponent<Rigidbody>();
+            part.position = originalPositions[i];
+            part.rotation = origRot[i];
+            part.SetParent(transform);
+            if (rb != null)
+            {
+                rb.velocity = Vector3.zero;
+                rb.angularVelocity = Vector3.zero;
+            }
         }
+        infoPanelPrefab.SetActive(false);
+        functionPanelPrefab.SetActive(false);
+        
     }
+
+    private void Awake()
+    {
+        inputActions = new VRInputActions();
+    }
+
+    private void OnEnable()
+    {
+        inputActions.VRControls.ExplodeAction.performed += ctx => Explode();
+        inputActions.VRControls.ReturnAction.performed += ctx => Return();
+        inputActions.Enable();
+    }
+
+    private void OnDisable()
+    {
+        inputActions.Disable();
+    }
+
 }
