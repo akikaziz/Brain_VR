@@ -459,8 +459,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   brainPcs: []
   origRot: []
-  infoPanelPrefab: {fileID: 7784594654056563489, guid: ee411fe44762fdb4883a7f02e0f16637, type: 3}
-  functionPanelPrefab: {fileID: 0}
+  infoPanelPrefab: {fileID: 659871854}
+  functionPanelPrefab: {fileID: 186591849}
 --- !u!114 &37783525
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1891,13 +1891,13 @@ MonoBehaviour:
   m_spriteAsset: {fileID: 0}
   m_tintAllSprites: 0
   m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: 97690656
+  m_TextStyleHashCode: 2427
   m_overrideHtmlColors: 0
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 15
-  m_fontSizeBase: 15
+  m_fontSize: 18
+  m_fontSizeBase: 18
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1932,7 +1932,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: -27.669039, w: 0}
+  m_margin: {x: -4.935932, y: 0, z: -33.655155, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   _SortingLayer: 0
@@ -3372,11 +3372,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 958211636114105836, guid: ee411fe44762fdb4883a7f02e0f16637, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0.199
+      value: 0.191
       objectReference: {fileID: 0}
     - target: {fileID: 958211636114105836, guid: ee411fe44762fdb4883a7f02e0f16637, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0.104
+      value: 0.079
       objectReference: {fileID: 0}
     - target: {fileID: 1450470926043105303, guid: ee411fe44762fdb4883a7f02e0f16637, type: 3}
       propertyPath: m_LocalScale.x
@@ -3396,11 +3396,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1450470926043105303, guid: ee411fe44762fdb4883a7f02e0f16637, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -0.245
+      value: -0.249
       objectReference: {fileID: 0}
     - target: {fileID: 1450470926043105303, guid: ee411fe44762fdb4883a7f02e0f16637, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0.381
+      value: 0.451
       objectReference: {fileID: 0}
     - target: {fileID: 1833605619160122798, guid: ee411fe44762fdb4883a7f02e0f16637, type: 3}
       propertyPath: m_LocalPosition.z
@@ -3445,7 +3445,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7550004468570060911, guid: ee411fe44762fdb4883a7f02e0f16637, type: 3}
       propertyPath: m_fontSize
-      value: 15
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 7550004468570060911, guid: ee411fe44762fdb4883a7f02e0f16637, type: 3}
       propertyPath: m_margin.w
@@ -3453,11 +3453,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7550004468570060911, guid: ee411fe44762fdb4883a7f02e0f16637, type: 3}
       propertyPath: m_margin.x
-      value: -14.687636
+      value: -20.794748
       objectReference: {fileID: 0}
     - target: {fileID: 7550004468570060911, guid: ee411fe44762fdb4883a7f02e0f16637, type: 3}
       propertyPath: m_margin.z
-      value: -12.090258
+      value: -19.677961
       objectReference: {fileID: 0}
     - target: {fileID: 7550004468570060911, guid: ee411fe44762fdb4883a7f02e0f16637, type: 3}
       propertyPath: m_fontStyle
@@ -3465,11 +3465,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7550004468570060911, guid: ee411fe44762fdb4883a7f02e0f16637, type: 3}
       propertyPath: m_fontSizeBase
-      value: 15
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 7550004468570060911, guid: ee411fe44762fdb4883a7f02e0f16637, type: 3}
       propertyPath: m_TextStyleHashCode
-      value: 97690656
+      value: 2427
+      objectReference: {fileID: 0}
+    - target: {fileID: 7550004468570060911, guid: ee411fe44762fdb4883a7f02e0f16637, type: 3}
+      propertyPath: m_VerticalAlignment
+      value: 256
       objectReference: {fileID: 0}
     - target: {fileID: 7550004468570060911, guid: ee411fe44762fdb4883a7f02e0f16637, type: 3}
       propertyPath: m_HorizontalAlignment
@@ -8039,11 +8043,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1816191111333065965, guid: 4aa3ef8b0c6a98b4d9bada6b99aa72d1, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.006
+      value: -0.018
       objectReference: {fileID: 0}
     - target: {fileID: 1816191111333065965, guid: 4aa3ef8b0c6a98b4d9bada6b99aa72d1, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.096
+      value: 0.121
       objectReference: {fileID: 0}
     - target: {fileID: 1816191111333065965, guid: 4aa3ef8b0c6a98b4d9bada6b99aa72d1, type: 3}
       propertyPath: m_LocalPosition.z
