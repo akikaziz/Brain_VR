@@ -67,7 +67,9 @@ public class ExplodeAndReturn : MonoBehaviour
                 Transform part = brainPcs[i];
 
                 MeshRenderer mesh = part.GetComponent<MeshRenderer>();
-                Vector3 pos = mesh.bounds.center - transform.position;
+                Vector3 pos = mesh.bounds.center;
+                Debug.Log("mesh.bound.center = " + mesh.bounds.center);
+                Debug.Log("transform.pos = " + transform.position);
                 Vector3 newPos = 5 * pos;
                 part.position = newPos;
             }

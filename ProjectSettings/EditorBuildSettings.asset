@@ -5,9 +5,15 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/brainVRSample.unity
     guid: a1772bce6bfd4584c9dbb58cc38b39af
+  - enabled: 1
+    path: Assets/CombinedBrainScene.unity
+    guid: 441a66c2eb850e648bab7a8becca72e4
+  - enabled: 0
+    path: Assets/3D Laboratory Environment with Appratus/Scenes/Laboratory Scene.unity
+    guid: 87bfd268f33ba2c42b2d39045e42839f
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 790d90b133e5b1344bbefba72064c507, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: f4a1501aab08deb4587754425f96c0ff, type: 2}
