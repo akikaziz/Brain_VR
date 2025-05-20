@@ -6,4 +6,10 @@ Brain VR is a Virtual Reality model of the human brain that helps you learn abou
 
 Link to downloading Brain Mesh Files with instructions - https://community.brain-map.org/t/human-brain-atlas-mesh-files/560
 
+Please make sure that all the files including the brain OBJ file are in the same assets folder
+
+The model can be interacted with on Unity on the editor (Game View) mode for testing purposes or if you don't own a headset. Otherwise, there are instructions on how to use the headset on the two whiteboards when you initially load the model on your headset.
+
+Please download and import the necessary XR Interaction packages to deploy the model on the VR headset.
+
 Have fun!
